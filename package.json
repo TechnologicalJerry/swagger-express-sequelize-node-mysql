@@ -1,0 +1,43 @@
+{
+  "name": "swagger-express-sequelize-node-mysql",
+  "version": "1.0.0",
+  "description": "Node Typescript ORM and MySQL with Sequelize",
+  "main": "server.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "ts-node-dev --respawn --transpile-only server.ts",
+    "build": "tsc",
+    "build:dev": "node ./build/server.js",
+    "start": "tsc && npm run dev"
+  },
+  "keywords": [
+    "node",
+    "nodejs",
+    "typescript",
+    "orm",
+    "mysql",
+    "sequelize",
+    "crud",
+    "restapi",
+    "rest",
+    "api"
+  ],
+  "author": "technojerry",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/cors": "^2.8.17",
+    "@types/express": "^4.17.21",
+    "@types/node": "^20.12.7",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.5"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "mysql2": "^3.9.4",
+    "nodemon": "^3.1.0",
+    "sequelize": "^6.37.3",
+    "sequelize-typescript": "^2.1.6",
+    "ts-node-dev": "^2.0.0"
+  }
+}
